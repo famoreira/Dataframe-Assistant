@@ -40,7 +40,7 @@ def main():
     st.header("Dataframe Assistant")
 
     # Load data from CSV file
-    url_data = "https://docs.google.com/spreadsheets/d/1IMURe9cZGwe4RPFUSl5ovHwI7jF1oFVoGB1jJtVwCes/gviz/tq?tqx=out:csv"
+    url_data = "URL"
     df = load_data_from_csv(url_data)
     df_text = extract_text_from_dataframe(df)
     df_chunks = split_text_into_chunks(df_text)
